@@ -1,0 +1,36 @@
+.bg-overlay {
+    position: fixed;
+    top: 0;
+    left: -150%;
+    bottom: 0;
+    background: rgba(0,0,0,0.4);
+	transition: all 0.35s ease;
+}
+
+.bg-overlay.is-show {
+	left: 0;
+	right: 0;
+}
+
+.app-container{
+    max-width: 1440px;
+    padding: 0 66px;
+    margin: 0 auto;
+}
+
+.page-wrapper:not(.page-home, .page-auth) .page-main{
+    padding-top: 130px;
+}
+
+table thead {
+	background: #ff4400d9;
+    color: #FFF;
+}
+
+table thead th{
+    padding: 10px !important;
+}
+
+table tbody td{
+    padding-inline: 10px !important;
+}

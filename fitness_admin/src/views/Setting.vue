@@ -1,0 +1,9 @@
+<template>
+    <MainLayout>
+        Dashboard
+    </MainLayout>
+</template>
+
+<script setup>
+    import MainLayout from '@/layout/MainLayout.vue';
+</script>

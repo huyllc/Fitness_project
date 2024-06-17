@@ -1,0 +1,12 @@
+table thead {
+	background: #5932EA;
+    color: #FFF;
+}
+
+table thead th{
+    padding-inline: 20px !important;
+}
+
+table tbody td{
+    padding-inline: 20px !important;
+}
